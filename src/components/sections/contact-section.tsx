@@ -21,8 +21,9 @@ export function ContactSection() {
                 <div>
                   <h3 className="font-bold text-slate-900">Address</h3>
                   <p className="text-slate-600">
-                    Industrial Area, Phase 2<br />
-                    New Delhi, 110001, India
+                    Malad West
+                    <br />
+                    Mumbai, 400095, India
                   </p>
                 </div>
               </div>
@@ -30,16 +31,16 @@ export function ContactSection() {
                 <Phone className="h-6 w-6 text-blue-600 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900">Phone</h3>
-                  <p className="text-slate-600">+91 98765 43210</p>
-                  <p className="text-slate-600">+91 11 2345 6789</p>
+                  <p className="text-slate-600">+91 7400202234</p>
+                  <p className="text-slate-600">+91 9224245981</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Mail className="h-6 w-6 text-blue-600 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900">Email</h3>
-                  <p className="text-slate-600">info@crowncarbon.com</p>
-                  <p className="text-slate-600">sales@crowncarbon.com</p>
+                  <p className="text-slate-600">crowncarbonbrush.com</p>
+                  {/* <p className="text-slate-600">sales@crowncarbon.com</p> */}
                 </div>
               </div>
             </div>
