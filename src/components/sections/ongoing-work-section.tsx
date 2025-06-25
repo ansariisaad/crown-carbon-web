@@ -9,15 +9,13 @@ const projects = [
     title: "Mining Equipment Brushes",
     description:
       "Developing specialized carbon brushes for extreme conditions in collaboration with leading mining equipment manufacturers.",
-    image: "",
-    // "https://images.unsplash.com/photo-1581093577421-ccc1081ac8d8?q=80&w=1000&auto=format&fit=crop",
+    image: "/assets/carbon_image/product-2.jpeg",
   },
   {
     title: "Advanced Generator Brushes",
     description:
       "Working with power generation companies to develop carbon brushes with improved conductivity and reduced wear.",
-    image: "",
-    // "https://images.unsplash.com/photo-1581093458791-9f3c3ae93234?q=80&w=1000&auto=format&fit=crop",
+    image: "/assets/carbon_image/product-3.jpeg",
   },
 ];
 

@@ -8,12 +8,14 @@ import { useState, useEffect } from "react";
 import { Button } from "../ui/button";
 
 // const heroImages = [
-//   "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-//   "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-//   "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
 // ]
-   
-const heroImages: any = [];
+
+const heroImages: any = [
+  "/assets/carbon_image/product-1.jpeg",
+  "/assets/carbon_image/product-2.jpeg",
+  "/assets/carbon_image/product-3.jpeg",
+];
 
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);

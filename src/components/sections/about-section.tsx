@@ -34,13 +34,12 @@ export function AboutSection() {
             </div>
           </div>
           <div className="md:w-1/2 relative h-[400px] w-full">
-            {/* <Image
-              // src="https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              src={""}
+            <Image
+              src="/assets/carbon_image/product-3.jpeg"
               alt="Our facility"
               fill
               className="object-cover rounded-lg shadow-lg"
-            /> */}
+            />
           </div>
         </div>
       </div>

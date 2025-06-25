@@ -9,20 +9,17 @@ const products = [
     title: "Industrial Carbon Brushes",
     description:
       "Heavy-duty carbon brushes for industrial motors and generators",
-    image: "",
-    // "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/carbon_image/product-1.jpeg",
   },
   {
     title: "Power Tool Carbon Brushes",
     description: "Specialized brushes for power tools and equipment",
-    image: "",
-    // "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/carbon_image/product-2.jpeg",
   },
   {
     title: "Custom Carbon Solutions",
     description: "Tailored carbon brush solutions for specific requirements",
-    image: "",
-    // "https://images.unsplash.com/photo-1613790410526-0c15af6a250c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/carbon_image/product-3.jpeg",
   },
 ];
 
