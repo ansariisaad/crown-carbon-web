@@ -9,7 +9,7 @@ const products = [
     title: "Industrial Carbon Brushes",
     description:
       "Heavy-duty carbon brushes for industrial motors and generators",
-    image: "/assets/carbon_image/product-1.jpeg",
+    image: "/assets/carbon_image/carbon2.jpeg",
   },
   {
     title: "Power Tool Carbon Brushes",

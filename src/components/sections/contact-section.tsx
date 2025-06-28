@@ -8,15 +8,15 @@ export function ContactSection() {
       <div className="container max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12">
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-6 text-slate-900">
+            <h2 className="text-3xl text-center sm:text-left font-bold mb-6 text-slate-900">
               Contact Us
             </h2>
-            <p className="text-slate-700 mb-8">
+            <p className="text-slate-700 mb-8 text-center md:text-left mx-5 md:mx-0">
               Reach out to discuss your specific carbon brush requirements. Our
               team is ready to assist you with customized solutions.
             </p>
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 mx-10 md:mx-0">
                 <MapPin className="h-6 w-6 text-blue-600 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900">Address</h3>
@@ -27,7 +27,7 @@ export function ContactSection() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 mx-10 md:mx-0 ">
                 <Phone className="h-6 w-6 text-blue-600 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900">Phone</h3>
@@ -35,7 +35,7 @@ export function ContactSection() {
                   <p className="text-slate-600">+91 9224245981</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4  mx-10 md:mx-0">
                 <Mail className="h-6 w-6 text-blue-600 mt-0.5" />
                 <div>
                   <h3 className="font-bold text-slate-900">Email</h3>

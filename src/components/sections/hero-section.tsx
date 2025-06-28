@@ -12,9 +12,9 @@ import { Button } from "../ui/button";
 // ]
 
 const heroImages: any = [
-  "/assets/carbon_image/product-1.jpeg",
-  "/assets/carbon_image/product-2.jpeg",
-  "/assets/carbon_image/product-3.jpeg",
+  "/assets/carbon_image/carbonheader.jpeg",
+  "/assets/carbon_image/carbon2.jpeg",
+  "/assets/carbon_image/carbon3.jpeg",
 ];
 
 export function HeroSection() {
