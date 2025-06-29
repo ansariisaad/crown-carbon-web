@@ -8,25 +8,25 @@ export function Footer() {
       <div className="container max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between gap-6">
           <div className="md:w-1/3">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-2 mb-4 ml-5 md:ml-0">
               <Crown className="h-8 w-8 text-blue-500" />
               <div>
                 <span className="text-xl font-bold">Crown Carbon Brush</span>
                 <p className="text-xs text-gray-400">Since 20 Years</p>
               </div>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-400 mb-4 mx-5 md:ml-0">
               An innovative company specializing in manufacturing high-quality
               carbon brushes for industrial applications across India.
             </p>
-            <p className="text-gray-400 italic">
+            <p className="text-gray-400 italic mx-5 md:ml-0">
               "We care for your armatures, fulfilling the highest quality
               standards"
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-bold mb-4 ml-5 md:ml-0">Quick Links</h3>
+            <ul className="space-y-2 ml-5 md:ml-0">
               <li>
                 <Link
                   href="#about"
@@ -70,8 +70,8 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-4">Products</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-bold mb-4 ml-5 md:ml-0">Products</h3>
+            <ul className="space-y-2 ml-5 md:ml-0">
               <li>
                 <Link
                   href="#products"
