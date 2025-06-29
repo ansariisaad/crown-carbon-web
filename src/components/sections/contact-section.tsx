@@ -216,6 +216,7 @@ export function ContactSection() {
   };
 
   return (
+    // 
     <section id="contact" className="py-20 bg-slate-100">
       <div className="container max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12">
