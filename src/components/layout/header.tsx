@@ -9,14 +9,21 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 px-8 w-full border-b bg-slate-900 text-white">
+    <header className="sticky top-0 z-50 px-8 w-full border-b bg-slate-300 text-white">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           <Crown className="h-8 w-8 text-blue-500" />
           <div>
             <span className="text-xl font-bold">Crown Carbon Brush</span>
             <p className="text-xs text-gray-400">Since 20 Years</p>
           </div>
+        </div> */}
+        <div className="container flex h-16 items-center justify-between mt-5">
+          <img
+            src="logofinal1.svg"
+            alt="logo"
+            className="object-cover h-[100px] w-[100px]"
+          />
         </div>
         <nav className="hidden md:flex gap-6">
           <Link
