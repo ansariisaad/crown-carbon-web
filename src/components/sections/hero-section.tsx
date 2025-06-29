@@ -30,6 +30,7 @@ export function HeroSection() {
 
   return (
     <section className="relative">
+      {/* this is the ocmment */}
       <div className="absolute inset-0 bg-black/60 z-10" />
       <div className="relative h-[600px] overflow-hidden">
         {heroImages.length > 0 &&
