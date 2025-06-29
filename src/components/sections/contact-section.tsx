@@ -227,8 +227,7 @@ export function ContactSection() {
             <p className="text-slate-700 mb-8 text-center md:text-left mx-5 md:mx-0">
               Reach out to discuss your specific carbon brush requirements. Our
               team is ready to assist you with customized solutions.
-            </p>
-            {/*  */}
+            </p> 
             <div className="space-y-6">
               <div className="flex items-start gap-4 mx-10 md:mx-0">
                 <MapPin className="h-6 w-6 text-blue-600 mt-0.5" />
