@@ -12,9 +12,9 @@ import { Button } from "../ui/button";
 // ]
 
 const heroImages: any = [
-  "/assets/carbon_image/product-1.jpeg",
-  "/assets/carbon_image/product-2.jpeg",
-  "/assets/carbon_image/product-3.jpeg",
+  "/assets/carbon_image/carbonheader.jpeg",
+  "/assets/carbon_image/carbon2.jpeg",
+  "/assets/carbon_image/carbon3.jpeg",
 ];
 
 export function HeroSection() {
@@ -30,6 +30,7 @@ export function HeroSection() {
 
   return (
     <section className="relative">
+      {/* this is the ocmment */}
       <div className="absolute inset-0 bg-black/60 z-10" />
       <div className="relative h-[600px] overflow-hidden">
         {heroImages.length > 0 &&
